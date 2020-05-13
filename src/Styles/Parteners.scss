@@ -1,0 +1,22 @@
+.parteners{
+    margin: 30px auto;
+    max-width: 1152px;
+    text-align: center;
+    width: 100%;
+    h3{
+        color: #000;
+        font-family: OpenSans,Arial,sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 30px;
+        padding: 0 20px;
+    }
+    .logo_container{
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        img{
+            padding: 10px;
+        }
+    }
+}

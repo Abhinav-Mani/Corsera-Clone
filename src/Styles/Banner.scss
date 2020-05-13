@@ -1,0 +1,52 @@
+.Banner{
+    background-image: url("https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera_assets.s3.amazonaws.com/front-page-story/hero-banner/robot-girl.jpg?auto=format%2Ccompress&dpr=1");
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    background-position: center;
+    
+    #backgroungGradient{
+        background: linear-gradient(90deg,#271066,rgba(39,16,102,0) 65%,rgba(39,16,102,0) 70%,#271066);
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 2;
+    }
+    .text-contianer{
+        z-index: 3;
+        color: #ffffff;
+        height: 416px;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        h1{
+            font-family: OpenSans,Arial,sans-serif;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 52px;
+            margin-bottom: 13px;
+        }
+        h2{
+            font-family: OpenSans,Arial,sans-serif;
+            font-size: 20px;
+            line-height: 28px;
+            margin-bottom: 33px;
+        }
+        button{
+            font-family: OpenSans,Arial,sans-serif;
+            font-weight: 700;
+            background-color: #fff;
+            border-radius: 2px;
+            border: 0 solid transparent;
+            color: #2a73cc;
+            font-size: 20px;
+            outline: none;
+            padding: 23px 48px;
+            transition: background-color .2s ease,color .2s ease;
+        }
+    }
+}
+

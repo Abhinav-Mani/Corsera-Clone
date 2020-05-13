@@ -1,0 +1,57 @@
+.promoAdd{
+    background: #d6edf6;
+    padding-bottom: 25px;
+    display: -ms-flexbox;
+    display: box;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    flex-wrap: wrap;
+    -o-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -o-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    .Info{
+        h2{
+            margin-top: 45px;
+            margin-bottom: 20px;
+            font-family: OpenSans;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 44px;
+        }
+        p{
+            font-size: 24px;
+            line-height: 35px;
+            margin: 0 0 1rem;
+            width: 463px;
+        }
+        .subtitle {
+            display: flex;
+            font-size: 16px;
+            font-weight: 400;
+        }
+    }
+    .topImage{
+        position: absolute;
+        top: 0;
+        left: 5%;
+    }
+    .bottomImage{
+        position: absolute;
+        bottom: 0;
+        right: 5%;
+        z-index: 10;
+    }
+    .Image{
+        display: -ms-inline-flexbox;
+        display: inline-box;
+        display: inline-flex;
+        -o-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        margin-right: 2rem;
+    }
+}

@@ -1,0 +1,34 @@
+$formHeight:35px;
+
+.navbarImage{
+    height: 32px;
+    width: 127px;
+}
+
+#exploreAll{
+    margin-right: 20px;
+}
+
+form.navbarSearch{
+    input{
+        padding: 10px;
+        height: $formHeight;
+        width: 370px;
+        font-weight: 300px;
+    }
+    button{
+        background-color: #4287f5;
+        color: #ffffff;
+        height: $formHeight;
+        border: none;
+    }
+}
+
+ul{
+    li{
+        display: flex;
+        span.right-nav-option{
+            padding: 10px;
+        }
+    }
+}
